@@ -4,7 +4,7 @@
 
 # MAGIC %md
 # MAGIC # Analyse de la plateforme Steam
-# MAGIC ## Partie 2 — Analyse des genres
+# MAGIC ## Partie 2 - Analyse des genres
 # MAGIC
 # MAGIC On se concentre ici sur les genres de jeux : lesquels dominent le catalogue Steam,
 # MAGIC lesquels ont les meilleures notes, quels éditeurs s'y spécialisent,
@@ -90,7 +90,7 @@ df_genres = (
     .filter(F.length(F.col("genre")) > 0)
 )
 
-print(f"Dataframe genres — {df_genres.count():,} lignes (jeu × genre)")
+print(f"Dataframe genres - {df_genres.count():,} lignes (jeu × genre)")
 display(df_genres.limit(5))
 
 # COMMAND ----------
@@ -149,7 +149,7 @@ display(genre_ratings)
 # MAGIC On regarde les **10 plus grands éditeurs** et leur répartition par genre.
 # MAGIC
 # MAGIC > **Visualisation** : **Bar** (empilé ou groupé), X = `publisher`, Y = `count`,
-# MAGIC > série = `genre` — ou garder en Table pour lecture détaillée.
+# MAGIC > série = `genre` - ou garder en Table pour lecture détaillée.
 
 # COMMAND ----------
 
@@ -225,7 +225,7 @@ display(genre_revenue)
 
 # MAGIC %md
 # MAGIC ---
-# MAGIC ## Résumé — Partie 2
+# MAGIC ## Résumé - Partie 2
 # MAGIC
 # MAGIC | Question | Visualisation à construire |
 # MAGIC |---|---|
