@@ -4,7 +4,7 @@
 
 # MAGIC %md
 # MAGIC # Analyse de la plateforme Steam
-# MAGIC ## Partie 3 — Analyse des plateformes
+# MAGIC ## Partie 3 - Analyse des plateformes
 # MAGIC
 # MAGIC Cette dernière partie analyse la disponibilité des jeux selon les systèmes d'exploitation
 # MAGIC (Windows, Mac, Linux) et croise ces informations avec les genres.
