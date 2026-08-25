@@ -1,7 +1,7 @@
-# Steam's videogames platform — EDA in PySpark (Databricks)
+# Steam's videogames platform - EDA in PySpark (Databricks)
 
 > Mandatory project for **block 2** (Exploratory, descriptive and inferential data
-> analysis) of the French **CDSD certification** — Concepteur Développeur en Science
+> analysis) of the French **CDSD certification** - Concepteur Développeur en Science
 > des Données | RNCP35288 | JEDHA
 
 ## Problem statement
@@ -10,13 +10,13 @@ Ubisoft wants to better understand the Steam's ecosystem before launching a new 
 
 ## Deliverable on Databricks
 
-- **Part 1** — Analysis at the "macro" level:
+- **Part 1** - Analysis at the "macro" level:
 > https://dbc-1513e7d9-850d.cloud.databricks.com/editor/notebooks/682786244233309?o=7474647522711152
 
-- **Part 2** — Genres analysis:
+- **Part 2** - Genres analysis:
 > https://dbc-1513e7d9-850d.cloud.databricks.com/editor/notebooks/682786244233311?o=7474647522711152
 
-- **Part 3** — Platform analysis:
+- **Part 3** - Platform analysis:
 > https://dbc-1513e7d9-850d.cloud.databricks.com/editor/notebooks/682786244233310?o=7474647522711152
 
 ## Technical stack
@@ -52,25 +52,25 @@ Projet-CDSD_Bloc-2_Steam/
 EDA using PySpark on Databricks.
 The analysis was carried out in three stages:
 
-**Part 1 — Analysis at the "macro" level:**
+**Part 1 - Analysis at the "macro" level:**
 - Which publishers release the most titles?
 - Which years saw the highest number of releases?
 - How are prices distributed?
 - Which languages ​​dominate?
 - How many games are restricted to adults?
 
-**Part 2 — Genre analysis:**
+**Part 2 - Genre analysis:**
 - Which genres dominate the catalog?
 - Which have the best ratio of positive reviews?
 - Which genres do major publishers favor?
 - Which are the most lucrative?
 
-**Part 3 — Platform analysis:**
+**Part 3 - Platform analysis:**
 - Windows/Mac/Linux distribution
 - Are certain genres linked to specific platforms?
 
 ## Author
 
-**Geoffrey MADALINSKI** — Certification CDSD (RNCP35288) - JEDHA
+**Geoffrey MADALINSKI** - Certification CDSD (RNCP35288) - JEDHA
 
 ---
