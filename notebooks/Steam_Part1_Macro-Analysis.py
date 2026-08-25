@@ -4,7 +4,7 @@
 
 # MAGIC %md
 # MAGIC # Analyse de la plateforme Steam
-# MAGIC ## Partie 1 — Vue d'ensemble du marché (Analyse Macro)
+# MAGIC ## Partie 1 - Vue d'ensemble du marché (Analyse Macro)
 # MAGIC
 # MAGIC **Contexte** : Ubisoft souhaite mieux comprendre l'écosystème Steam avant de lancer un nouveau jeu.
 # MAGIC Cette première partie couvre l'analyse macro : éditeurs les plus actifs, jeux les mieux notés,
@@ -122,7 +122,7 @@ df = df.withColumn(
     F.when(total_reviews > 0, F.round(F.col("positive") / total_reviews, 4))
 )
 
-print(f"Dataframe prêt — {df.count():,} jeux, {len(df.columns)} colonnes")
+print(f"Dataframe prêt - {df.count():,} jeux, {len(df.columns)} colonnes")
 display(df.limit(5))
 
 # COMMAND ----------
@@ -325,7 +325,7 @@ display(age_ratings)
 
 # MAGIC %md
 # MAGIC ---
-# MAGIC ## Résumé — Partie 1
+# MAGIC ## Résumé - Partie 1
 # MAGIC
 # MAGIC | Question | Visualisation à construire |
 # MAGIC |---|---|
